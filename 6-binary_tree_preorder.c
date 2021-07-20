@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_preorder - goes through a binary tree using pre-order traversal
- * @tree: integer number to be added
+ * @tree: tree pointer to be traversed
  * @func: pointer function to print node value
  *
  * Return: nothing
