@@ -1,5 +1,9 @@
 *main.c
 .vscode
+.devcontainer
+*.dSYTM
+./a.out.dSYTM/
+a.out
 binary_tree_print.c
 0-node
 1-left
