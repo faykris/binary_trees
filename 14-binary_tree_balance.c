@@ -4,7 +4,7 @@
  * balance - helper to calculate the balance factor
  * @tree: tree pointer to be traversed
  *
- * Return: nodes of the binary tree
+ * Return: balance factor
  */
 int balance(const binary_tree_t *tree)
 {
@@ -20,7 +20,7 @@ int balance(const binary_tree_t *tree)
  * binary_tree_balance - measures the balance factor of a binary tree
  * @tree: tree pointer to be traversed
  *
- * Return: nodes of the binary tree
+ * Return: balance factor minus 1 when tree node exist
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
