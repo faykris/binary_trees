@@ -8,11 +8,15 @@
  */
 int balance(const binary_tree_t *tree)
 {
+	if (tree == NULL)
+	{
+		return (0);
+	}
+
 	if (tree)
 	{
 		return (balance(tree->left) - balance(tree->right) + 1);
 	}
-
 	return (0);
 }
 
@@ -24,10 +28,14 @@ int balance(const binary_tree_t *tree)
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
+	if (tree == NULL)
+	{
+		return (0);
+	}
+
 	if (tree)
 	{
 		return (balance(tree) - 1);
 	}
-
 	return (0);
 }
